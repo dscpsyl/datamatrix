@@ -1,0 +1,4 @@
+pylibdmtx 
+opencv-contrib-python
+numpy
+pillow

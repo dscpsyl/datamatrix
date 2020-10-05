@@ -60,7 +60,7 @@ This project is released under the MIT lisence. Anyone can change, add, delete, 
 
 Credits
 ------------------------
-[simyoulater](https://twitter.com/SimYouLater28)
+![twitter image](./github/twitter.png) [simyoulater](https://twitter.com/SimYouLater28)
 
 
 **Note:** *This project is unmaintained. You can submit issues and requests. However, they will be resolved at times only convient and available to me.*

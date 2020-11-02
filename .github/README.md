@@ -58,7 +58,7 @@ Contribution
 ------------------------
 This project is released under the MIT lisence. Anyone can change, add, delete, and alter the code in whatever way the may like. You may create a pull request at any time but spams will be blocked. Rejects and accepts will not be checked on a regular basis. 
 
-Credits
+Contributors
 ------------------------
 <a href="https://twitter.com/SimYouLater28">
      <img src="/.github/twitter.png">

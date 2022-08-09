@@ -1,24 +1,20 @@
-Python3 Data Matrix Reader 
-==========
+# Python3 Data Matrix Reader 
 
-This repository is just a single file built on python data matrix readers and encoders.
+This repository is just a single file built on python data matrix readers and encoders. Running this script allows you to read any data matrix using your camera or encode any allowed data into a data matrix using the command line. You can also use this as a module and expand beyong this single script.
 
-Overview
---------
 
-Running this script allows you to read any data matrix using your camera or encode any allowed data into a data matrix using the command line. You can also use this as a module and expand beyong this single script.
+## Getting Started
 
-Dependencies
-------------
+Make sure the place you install this has camera permissions on your device.
+
+### Prerequisites
 
 - All code is written in Python 3.
 - Dependencies are contained in the `dependencies.txt` file
 - This script is built upon `OpenCV-2` & `pylibdmtx`
-     
 
-Installiation and Usage
---------------------
-### Installiation
+### Installing
+
 1. Start by cloning this repository. 
 2. The main file is called `pydmatrix.py`
      - **YOU HAVE TO OPEN THIS IN AN ENVORIONMENT THAT HAS PREMISSION TO ACCESS YOUR CAMERA**
@@ -26,7 +22,8 @@ Installiation and Usage
 4. Run `pip3 install -r dependencies.txt`
 5. Navigate to the script directory.
 
-### Usage
+## Basic Usage
+
 **Decoding**
 1. Run `python3 pydmatrix.py`
 2. It will ask you if you want to encode or decode. Select decode.
@@ -46,9 +43,8 @@ Installiation and Usage
     - *Data matrix can only encode up to 3116 ASCII characters. Read more [here](https://en.wikipedia.org/wiki/Data_Matrix).*
 5. The program will encode and spit out the resulting data matrix image to the root directory of the script.
 
+## Module Usage
 
-Module Usage
-------------------------
 1. `import pydmatrix`
 2. To encode, call the function `writtingEncode()`. 
 3. To decode, call the function `readingDecode()`.
